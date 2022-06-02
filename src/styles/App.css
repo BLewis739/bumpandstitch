@@ -346,3 +346,13 @@ header {
 .login-label {
   margin-top: 20px;
 }
+
+/* 
+CONTACT PAGE STYLING 
+*/
+
+iframe {
+  width: 90%;
+  height: 850px;
+  background-color: #c0c0c0;
+}
