@@ -387,6 +387,7 @@ iframe {
   color: #c0c0c0;
   font-size: 20px;
   padding: 0 20px;
+  margin: 25px 0;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -394,5 +395,14 @@ iframe {
   .contact-intro {
     font-size: 14px;
     padding: 0 20px;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .handle {
+    font-size: 20px;
   }
 }
