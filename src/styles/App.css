@@ -355,4 +355,44 @@ iframe {
   width: 90%;
   height: 850px;
   background-color: #c0c0c0;
+  margin-top: 20px;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+}
+
+.contact-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-row {
+  display: flex;
+  align-items: center;
+}
+.handle {
+  margin: 0 25px;
+  font-size: 30px;
+}
+
+.contact-intro {
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  color: #c0c0c0;
+  font-size: 20px;
+  padding: 0 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@media screen and (max-width: 750px) {
+  .contact-intro {
+    font-size: 14px;
+    padding: 0 20px;
+  }
 }
