@@ -21,21 +21,21 @@
 </template>
 
 <script>
-  import axios from 'axios'
+  import galleryData from '../../data/gallery.js'
 
   export default {
     name: 'GalleryItemPage',
     data: () => ({
-      itemData: null
+      galleryData: galleryData,
+      itemData: null,
+      itemIndex: null
     }),
     mounted() {
-      this.getItemDetails()
+      this.itemIndex = this.$route.params.galleryitem_id - 1
+      // console.log(this.itemData[this.itemIndex].wrestler)
+      this.itemData = this.galleryData[this.itemIndex]
     },
     methods: {
-        async getItemDetails() {
-          const res = await axios.get(`https://cashew-gear-backend.herokuapp.com/galleryitems/${this.$route.params.galleryitem_id}`)
-          this.itemData = res.data
-      },
     }
   }
 </script>
