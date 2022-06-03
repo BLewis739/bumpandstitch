@@ -17,26 +17,18 @@
 </template>
 
 <script>
-  import axios from 'axios'
   import GearCard from '../components/GearCard.vue'
+  import galleryData from '../../data/gallery.js'
 
   export default {
     name: 'GalleryPage',
     data: () => ({
-      galleryItems: []
+      galleryItems: galleryData
     }),
     components: {
       GearCard
     },
-    mounted() {
-      this.getGalleryItems()
-    },
     methods: {
-      async getGalleryItems() {
-        const res = await axios.get(`https://cashew-gear-backend.herokuapp.com/galleryitems/`)
-        this.galleryItems = res.data
-        console.log(res.data)
-      },
       navigateItem(itemId) {
         this.$router.push(`/gallery/item/${itemId}`)
       }
