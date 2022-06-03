@@ -251,6 +251,7 @@ header {
   border-radius: 5px;
   background-color: #404040;
   width: 25%;
+  font-weight: 600;
 }
 
 .home-page-header, .row-five {
