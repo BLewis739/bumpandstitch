@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-<header>
+<header class="site-header">
   <div class='site-title'>
   Bump & Stitch
     <div class='sub-heading'>
