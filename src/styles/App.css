@@ -347,15 +347,6 @@ header {
   color:black;
 }
 
-.about-text-wrapper {
-  text-align: center;
-  margin: 20px 10%;
-}
-
-.about-page-wrapper {
-  margin: 0 5%;
-}
-
 .login-field {
   width: 300px;
   height: 40px;
@@ -426,3 +417,27 @@ iframe {
     font-size: 20px;
   }
 }
+
+/* 
+ABOUT PAGE STYLING 
+*/
+
+.about-text {
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  color: #c0c0c0;
+  font-size: 20px;
+  padding: 0 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.about-text-wrapper {
+  text-align: center;
+  margin: 0 10%;
+}
+
+.about-page-wrapper {
+  margin: 0 5%;
+}
+
