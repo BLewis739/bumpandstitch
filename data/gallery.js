@@ -95,5 +95,12 @@ export default [
       'https://i.imgur.com/haijoBg.jpg'
     ],
     shortName: 'Loggins Green Camo Pants'
+  },
+  {
+    id: 10,
+    wrestler: 'Brad Cashew',
+    style: 'https://cashew-gear-backend.herokuapp.com/styles/2',
+    gallery_photo_items: [],
+    shortName: 'Loggins Green Camo Pants'
   }
 ]
