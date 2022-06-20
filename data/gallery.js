@@ -116,5 +116,18 @@ export default [
       'https://i.imgur.com/SCtSr9P.jpg'
     ],
     shortName: 'Cashew Scott Hall Trunks'
+  },
+  {
+    id: 12,
+    wrestler: 'Brad Cashew',
+    style: 'https://cashew-gear-backend.herokuapp.com/styles/1',
+    gallery_photo_items: [
+      'https://i.imgur.com/ntuNUMB.jpg',
+      'https://i.imgur.com/3N7Wg27.jpg',
+      'https://i.imgur.com/B8TeWzY.png',
+      'https://i.imgur.com/d9dWqWa.jpg',
+      'https://i.imgur.com/uK3TZkZ.jpg'
+    ],
+    shortName: 'Cashew White Geometric Trunks'
   }
 ]
