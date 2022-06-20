@@ -100,7 +100,11 @@ export default [
     id: 10,
     wrestler: 'Brad Cashew',
     style: 'https://cashew-gear-backend.herokuapp.com/styles/2',
-    gallery_photo_items: [],
-    shortName: 'Loggins Green Camo Pants'
+    gallery_photo_items: [
+      'https://i.imgur.com/WiBPS5m.jpg',
+      'https://i.imgur.com/TEFQlsV.jpg',
+      'https://i.imgur.com/TEFQlsV.jpg'
+    ],
+    shortName: 'Cashew Baby Blue Bikers'
   }
 ]
