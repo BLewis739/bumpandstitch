@@ -103,8 +103,18 @@ export default [
     gallery_photo_items: [
       'https://i.imgur.com/WiBPS5m.jpg',
       'https://i.imgur.com/TEFQlsV.jpg',
-      'https://i.imgur.com/TEFQlsV.jpg'
+      'https://i.imgur.com/HzMLOs8.jpg'
     ],
     shortName: 'Cashew Baby Blue Bikers'
+  },
+  {
+    id: 11,
+    wrestler: 'Brad Cashew',
+    style: 'https://cashew-gear-backend.herokuapp.com/styles/1',
+    gallery_photo_items: [
+      'https://i.imgur.com/7eTXlpS.jpg',
+      'https://i.imgur.com/SCtSr9P.jpg'
+    ],
+    shortName: 'Cashew Scott Hall Trunks'
   }
 ]
