@@ -129,5 +129,28 @@ export default [
       'https://i.imgur.com/uK3TZkZ.jpg'
     ],
     shortName: 'Cashew White Geometric Trunks'
+  },
+  {
+    id: 13,
+    wrestler: 'Brad Cashew',
+    style: 'https://cashew-gear-backend.herokuapp.com/styles/1',
+    gallery_photo_items: [
+      'https://i.imgur.com/lEcA4uH.jpg',
+      'https://i.imgur.com/MxEZAdX.jpg',
+      'https://i.imgur.com/qQzOK54.jpg',
+      'https://i.imgur.com/eOmvImZ.jpg',
+      'https://i.imgur.com/Yuk5sog.jpg'
+    ],
+    shortName: 'Cashew White and Gold Trunks'
+  },
+  {
+    id: 14,
+    wrestler: 'Brad Cashew',
+    style: 'https://cashew-gear-backend.herokuapp.com/styles/1',
+    gallery_photo_items: [
+      'https://i.imgur.com/RgnzPx7.jpg',
+      'https://i.imgur.com/czqsa35.jpg'
+    ],
+    shortName: 'Cashew Silver and Gold Trunks'
   }
 ]
