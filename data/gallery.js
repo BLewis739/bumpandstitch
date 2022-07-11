@@ -152,5 +152,41 @@ export default [
       'https://i.imgur.com/czqsa35.jpg'
     ],
     shortName: 'Cashew Silver and Gold Trunks'
+  },
+  {
+    id: 15,
+    wrestler: 'Randy Rivera',
+    style: 'https://cashew-gear-backend.herokuapp.com/styles/1',
+    gallery_photo_items: [
+      'https://i.imgur.com/y4A1qMk.jpg',
+      'https://i.imgur.com/XWhvnsn.jpg',
+      'https://i.imgur.com/sWtjetF.jpg',
+      'https://i.imgur.com/kUbvwcK.jpg'
+    ],
+    shortName: 'Jariel Shiny Red Trunks'
+  },
+  {
+    id: 16,
+    wrestler: 'Danny Miles',
+    style: 'https://cashew-gear-backend.herokuapp.com/styles/2',
+    gallery_photo_items: [
+      'https://i.imgur.com/iPTpkZp.jpg',
+      'https://i.imgur.com/8A8TYGU.jpg',
+      'https://i.imgur.com/35qwBeS.png',
+      'https://i.imgur.com/Oo6kHcC.png'
+    ],
+    shortName: 'Jariel Shiny Red Trunks'
+  },
+  {
+    id: 17,
+    wrestler: 'Brad Cashew',
+    style: 'https://cashew-gear-backend.herokuapp.com/styles/2',
+    gallery_photo_items: [
+      'https://i.imgur.com/iPTpkZp.jpg',
+      'https://i.imgur.com/8A8TYGU.jpg',
+      'https://i.imgur.com/35qwBeS.png',
+      'https://i.imgur.com/Oo6kHcC.png'
+    ],
+    shortName: 'Jariel Shiny Red Trunks'
   }
 ]
