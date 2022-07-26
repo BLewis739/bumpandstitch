@@ -176,17 +176,5 @@ export default [
       'https://i.imgur.com/Oo6kHcC.png'
     ],
     shortName: 'Jariel Shiny Red Trunks'
-  },
-  {
-    id: 17,
-    wrestler: 'Brad Cashew',
-    style: 'https://cashew-gear-backend.herokuapp.com/styles/2',
-    gallery_photo_items: [
-      'https://i.imgur.com/iPTpkZp.jpg',
-      'https://i.imgur.com/8A8TYGU.jpg',
-      'https://i.imgur.com/35qwBeS.png',
-      'https://i.imgur.com/Oo6kHcC.png'
-    ],
-    shortName: 'Jariel Shiny Red Trunks'
   }
 ]
